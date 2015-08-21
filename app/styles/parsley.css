@@ -1,0 +1,60 @@
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #7dd076;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #d15555;
+}
+
+
+#regFormTitle input[type="text"]:focus,
+#regFormTitle input[type="email"]:focus,
+#regFormTitle input[type="password"]:focus{
+    border: 2px solid #5170fd;
+    box-shadow: 0;
+    outline:none;
+}
+
+input.parsley-error:focus,
+select.parsley-error:focus,
+textarea.parsley-error:focus,
+input.parsley-success:focus,
+select.parsley-success:focus,
+textarea.parsley-success:focus{
+    border: 2px solid #5170fd;
+    box-shadow: 0;
+    outline:none;
+}
+
+
+
+.parsley-errors-list {
+  color:#c22828;
+  text-align: right;
+  padding:0;
+  list-style-type: none;
+  font-size: 0.9em;
+  display:inline;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+.parsley-validated{
+    color: #468847;
+}
