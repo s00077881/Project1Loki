@@ -1,0 +1,198 @@
+@import "../bower_components/bootstrap/dist/css/bootstrap.css";
+@import "../styles/parsley.css";
+@import "../styles/scrolling-nav.css";
+@icon-font-path: "../fonts/glyphicons/";
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 2px solid #5170fd;
+    outline: 0;
+}
+
+
+/*Header styling*/
+
+.headStyle {
+    height: 100px;
+    background-color: #5170fd;
+}
+
+
+/*Main Body*/
+
+
+/*Search Form*/
+
+#mainBody {}
+
+#mainBody h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+#mainBody p {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.bodyBorder {
+    border-top: solid ##5170fd 20px;
+    opacity: 1;
+}
+
+.mainBody {
+    min-height: 350px;
+    height: auto;
+    background-color: #5170fd;
+    opacity: 0.9;
+}
+
+@media (max-width: 767px) {
+    #mainBody {
+        min-height: 100%;
+    }
+}
+
+@media(max-width:767px) {
+    .formMainMarg {
+        margin-top: 20px;
+    }
+}
+
+@media(min-width:992px) {
+    .formMainMarg {
+        margin-top: 30px;
+    }
+}
+
+.searchButton {
+    height: 50px;
+    background-color: #5170fd;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.formStyle {
+    height: 50px;
+}
+
+#aboutUs {
+    margin-top: 10px;
+    font-size: 20px !important;
+}
+
+
+/*Login bar style*/
+
+.removemargin {}
+
+.removepadding {
+    padding: 0;
+}
+
+.loginStyle {
+    margin-top: 20px;
+    opacity: 0.9
+}
+
+.loginStyle a {
+    color: #fff;
+}
+
+
+/*Register style*/
+
+#register {
+    color: #fff;
+}
+
+#register h1 {
+    font-size: 60px;
+}
+
+#register p {
+    font-size: 20px;
+}
+
+#regForm {
+    min-height: 100%;
+}
+
+.regTextBox {
+    margFborin-bottom: 15px;
+    opacity: .9
+}
+
+#regFormContainer {
+    margin-top: 30px;
+}
+
+.regButton {
+    background-color: #5170fd;
+    color: #fff;
+    border: solid 1px #5170fd;
+    width: 100%;
+    float: right;
+    margin-top: 50px;
+}
+
+.regCheckBox {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.checkboxRow {
+    padding: 0;
+    text-align: right;
+}
+
+@media(min-width:992px) {
+    .checkboxRow {
+        margin-left: 145px;
+    }
+}
+
+.checkboxRow label {
+    margin-top: 6px;
+    font-size: 14px !important;
+}
+
+#regisForm label {
+    font-size: 16px;
+    padding: 0;
+}
+
+
+/*About section*/
+
+#info img {
+    width: 200px;
+    border: 2px solid #fff;
+}
+
+.topImage {
+    margin-top: 80px;
+}
+
+.imageSpacer {
+    margin-top: 50px;
+}
+
+.paraSpacer {
+    margin-top: 20px;
+}
+
+#info li,
+#info p {
+    color: #fff;
+    font-size: 16px;
+}
